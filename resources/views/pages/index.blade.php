@@ -9,7 +9,7 @@
 
 @section('content')
     <section class="intro-section">
-        <h2 class="section-title">{{ $personal->main_title }}</h2>
+        <h2 class="section-title">"{{ $personal->main_title }}"</h2>
         {!! $personal->about_text !!}
         <a href="{{ $personal->btn_contact_link ? $personal->btn_contact_link : 'javascript:void(0)'  }}" class="btn btn-primary btn-hire-me">{{ $personal->btn_contact_text }}</a>
     </section>

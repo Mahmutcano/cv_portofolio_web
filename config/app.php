@@ -181,6 +181,7 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+
     ],
 
     /*
@@ -236,6 +237,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+
     ],
 
 ];
