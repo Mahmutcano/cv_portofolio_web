@@ -48,7 +48,7 @@
                         </div>
                         <div class="profile-name">
                             <h5 class="mb-0 font-weight-normal">{{ auth()->user()->name }}</h5>
-                            <span>Gold Member</span>
+                            <span>ADMİN</span>
                         </div>
                     </div>
                     <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                             <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                                <p class="preview-subject ellipsis mb-1 text-small">Kullanıcı Ayarları</p>
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                             <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
+                                <p class="preview-subject ellipsis mb-1 text-small">Şifreyi Değiştir</p>
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
@@ -83,14 +83,14 @@
                                 </div>
                             </div>
                             <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
+                                <p class="preview-subject ellipsis mb-1 text-small">Listelere Git</p>
                             </div>
                         </a>
                     </div>
                 </div>
             </li>
             <li class="nav-item nav-category">
-                <span class="nav-link">Navigation</span>
+                <span class="nav-link">MENÜ</span>
             </li>
             <li class="nav-item menu-items {{ Route::is('admin.index') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.index') }}">
@@ -176,7 +176,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
                              aria-labelledby="profileDropdown">
-                            <h6 class="p-3 mb-0">Profile</h6>
+                            <h6 class="p-3 mb-0">Profil</h6>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item preview-item">
                                 <div class="preview-thumbnail">
@@ -185,7 +185,7 @@
                                     </div>
                                 </div>
                                 <div class="preview-item-content">
-                                    <p class="preview-subject mb-1">Settings</p>
+                                    <p class="preview-subject mb-1">Ayarlar</p>
                                 </div>
                             </a>
                             <div class="dropdown-divider"></div>
@@ -196,11 +196,11 @@
                                     </div>
                                 </div>
                                 <div class="preview-item-content">
-                                    <p class="preview-subject mb-1">Log out</p>
+                                    <p class="preview-subject mb-1">Çıkış</p>
                                 </div>
                             </a>
                             <div class="dropdown-divider"></div>
-                            <p class="p-3 mb-0 text-center">Advanced settings</p>
+                            <p class="p-3 mb-0 text-center">Gelişmiş Ayarlar</p>
                         </div>
                     </li>
                 </ul>
@@ -220,8 +220,8 @@
             <footer class="footer">
                 <div class="d-sm-flex justify-content-center justify-content-sm-between">
                     <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © {{ date('Y') }} <a
-                            href="https://www.bootstrapdash.com/" target="_blank">BootstrapDash</a>. All rights reserved.</span>
-                    <span class="text-muted float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i
+                            href="https://www.linkedin.com/in/mahmut-can-%C3%B6zgan-8a08501b0/" target="_blank">Mahmut Can Özgan</a>. Tüm Hakları Saklıdır.</span>
+                    <span class="text-muted float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Türkiye / Ankara<i
                             class="mdi mdi-heart text-danger"></i></span>
                 </div>
             </footer>
