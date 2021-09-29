@@ -42,7 +42,7 @@
                 <p>Mail : {{ $personal->mail }}</p>
                 <p>Adres : {{ $personal->address }}</p>
                 <a href="{{ asset('storage/'. $personal->cv) }}" target="_blank" class="btn btn-download-cv btn-primary rounded-pill">
-                    <img src="{{ asset('assets/images/download.svg') }}" alt="download" class="btn-img">Özgeçmişimi İndir
+                    <img src="{{ asset('assets/images/download.svg') }}" alt="download" class="btn-img">Özgeçmişi İndir
                 </a>
             </div>
         </div>
@@ -68,7 +68,7 @@
 
         @yield('content')
 
-        <footer>Live Resume @ <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer">BootstrapDash</a>. All Rights Reserved 2020</footer>
+        <footer>Tüm Hakkı @ <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer">Mahmut Can Özgan </a>.Türkiye/Ankara</footer>
     </main>
 </div>
 <script src="{{ asset('assets/vendors/jquery/dist/jquery.min.js') }}"></script>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -67,6 +68,8 @@ Route::prefix('admin')->middleware('auth')->group(function ()
     Route::put('portfolio/images/{id}', 'PortfolioController@featureImage')->name('portfolio.featureImage')->whereNumber('id');
     Route::post('portfolio/images/{id}/change-status', 'PortfolioController@changeStatusImage')->name('portfolio.changeStatusImage')->whereNumber('id');
 });
+
+Route::post("send-email", [EmailController::class, "contact"]);
 
 
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');

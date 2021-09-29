@@ -53,17 +53,17 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <p class="testimonial-content">Bazen insanlar seni incitir ve inciten sanki senmişsin gibi davranırlar.</p>
-                    <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                    <img src="assets/images/mahoo.png" alt="profile" class="testimonial-img">
                     <p class="testimonial-name">Can Özgan</p>
                 </div>
                 <div class="carousel-item">
                     <p class="testimonial-content">The bravest thing you can do is be unafraid to feel.</p>
-                    <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                    <img src="assets/images/mahoo.png" alt="profile" class="testimonial-img">
                     <p class="testimonial-name">Can Özgan</p>
                 </div>
                 <div class="carousel-item">
                     <p class="testimonial-content">Time flies memories stay.</p>
-                    <img src="assets/images/Profile.png" alt="profile" class="testimonial-img">
+                    <img src="assets/images/mahoo.png" alt="profile" class="testimonial-img">
                     <p class="testimonial-name">Can Özgan</p>
                 </div>
             </div>

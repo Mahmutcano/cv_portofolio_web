@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title')
-    Resume
+ RESUME
 @endsection
 
 @section('css')
@@ -11,7 +11,7 @@
 
     <section class="clients-section">
         <h6 class="section-subtitle">Ne Yapıyorum</h6>
-        <h2 class="section-title">İlgi Alanları</h2>
+        <h2 class="section-title">Alanlar</h2>
         <div class="client-logos-wrapper">
             <div class="client-logo"><img src="assets/images/Clients_1.svg" alt="logo" class="w-100"></div>
             <div class="client-logo"><img src="assets/images/Clients_2.svg" alt="logo" class="w-100"></div>
@@ -28,7 +28,7 @@
                     <img src="assets/images/001-target.svg" alt="target">
                 </div>
                 <div class="media-body">
-                    <h5 class="service-title">web designing</h5>
+                    <h5 class="service-title">Web Designing</h5>
                     <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum
                         sed
                         tortor.</p>

@@ -20,7 +20,8 @@
             </div>
         </div>
 
-        <form action="#!" class="contact-form">
+        <form id="contact" method="POST" action="{{ url('/send-email')}}" enctype="multipart/form-data">
+            @csrf
             <div class="form-group form-group-name">
                 <label for="name" class="sr-only">İsim</label>
                 <input type="text" name="name" id="name" class="form-control" placeholder="İsim">

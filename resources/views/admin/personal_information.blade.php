@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <img width="100%"
-                                        src="{{ asset($information->image ? 'storage/'. $information->image : 'assets/images/faces/face15.jpg') }}">
+                                        src="{{ asset($information->image ? 'storage/'. $information->image : 'assets/images/faces/mahoo.jpg') }}">
                                 </div>
                             </div>
 
