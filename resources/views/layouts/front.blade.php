@@ -36,11 +36,11 @@
         <div class="widget">
             <h5 class="widget-title">KİŞİSEL BİLGİLER</h5>
             <div class="widget-content">
-                <p>Doğum Tarihi : {{ $personal->birthday }}</p>
-                <p>WEBSITE : {{ $personal->website }}</p>
-                <p>Telefon : {{ $personal->phone }}</p>
-                <p>Mail : {{ $personal->mail }}</p>
-                <p>Adres : {{ $personal->address }}</p>
+                <p><i class="fas fa-birthday-cake"></i>  Doğum Tarihi : {{ $personal->birthday }}</p>
+                <p><i class="fas fa-globe-europe"></i>  WEBSITE : {{ $personal->website }}</p>
+                <p><i class="fas fa-phone-volume"></i>  Telefon : {{ $personal->phone }}</p>
+                <p><i class="fas fa-envelope-square"></i>  Mail : {{ $personal->mail }}</p>
+                <p><i class="fas fa-map-marker-alt"></i>  Adres : {{ $personal->address }}</p>
                 <a href="{{ asset('storage/'. $personal->cv) }}" target="_blank" class="btn btn-download-cv btn-primary rounded-pill">
                     <img src="{{ asset('assets/images/download.svg') }}" alt="download" class="btn-img">Özgeçmişi İndir
                 </a>
@@ -49,7 +49,7 @@
         <div class="widget card">
             <div class="card-body">
                 <div class="widget-content">
-                    <h5 class="widget-title card-title">DİLLER</h5>
+                    <h5 class="widget-title card-title"><i class="fas fa-language"></i> DİLLER</h5>
                     {!! $personal->languages !!}
                 </div>
             </div>
@@ -57,7 +57,7 @@
         <div class="widget card">
             <div class="card-body">
                 <div class="widget-content">
-                    <h5 class="widget-title card-title">HOBİLER</h5>
+                    <h5 class="widget-title card-title"><i class="fas fa-hiking"></i> HOBİLER</h5>
                     {!! $personal->interests !!}
                 </div>
             </div>
