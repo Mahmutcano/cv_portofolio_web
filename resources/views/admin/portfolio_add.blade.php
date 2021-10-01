@@ -80,7 +80,7 @@
                             <label for="description">Description</label>
                             <input type="text" class="form-control" name="description" id="description"
                                    placeholder="Description"
-                                   value={{ $portfolio->description ?? '' }}"">
+                                   value="{{ $portfolio->description ?? '' }}">
                             @error('description')
                             <div class="alert alert-danger">{{ $message }}</div>
                             @enderror

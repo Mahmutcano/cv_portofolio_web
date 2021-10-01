@@ -13,10 +13,10 @@
         <h6 class="section-subtitle">Ne Yapıyorum</h6>
         <h2 class="section-title">Alanlar</h2>
         <div class="client-logos-wrapper">
-            <div class="client-logo"><img src="assets/images/Clients_1.svg" alt="logo" class="w-100"></div>
-            <div class="client-logo"><img src="assets/images/Clients_2.svg" alt="logo" class="w-100"></div>
-            <div class="client-logo"><img src="assets/images/Clients_3.svg" alt="logo" class="w-100"></div>
-            <div class="client-logo"><img src="assets/images/Clients_4.svg" alt="logo" class="w-100"></div>
+            <div class="client-logo"><a href="https://www.amazon.com/amazonprime/146-5825583-2775669?_encoding=UTF8&%2AVersion%2A=1&%2Aentries%2A=0"><img src="assets/images/Clients_1.svg" alt="logo" class="w-100"></div>
+            <div class="client-logo"><a href="#!"><img src="assets/images/Netflix.svg" alt="logo" class="w-150"></div>
+            <div class="client-logo"><a href="#!"><img src="assets/images/Clients_3.svg" alt="logo" class="w-100"></div>
+            <div class="client-logo"><a href="#!"><img src="assets/images/Spotify.svg" alt="logo" class="w-150"></div>
         </div>
     </section>
     <section class="services-section">

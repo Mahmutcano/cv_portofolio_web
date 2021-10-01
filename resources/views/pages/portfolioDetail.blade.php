@@ -11,19 +11,25 @@
     <section class="portfolio-section">
         <h2 class="section-title mb-0">{{ $portfolio->title }}</h2>
         <small>{{ $portfolio->tags }}</small>
+
+
         <hr>
 
         {!! $portfolio->about !!}
+       
         <hr>
 
         <div class="portfolio-wrapper">
+
             @foreach($portfolio->images as $item)
                 <figure class="portfolio-item hover-box" href="{{ asset('storage/portfolio/'.$item->image)  }}">
-                    <img src="{{ asset('storage/portfolio/'.$item->image)  }}"
-                         alt="{{ $portfolio->title }}"
+                    <img src="{{ asset('storage/portfolio/'.$item->image) }}"
+                         alt="{{ $portfolio->image}}"
                          class="portfolio-item-img">
+                         <a href="{{ asset('storage/porfolio/' .$item->website) }}">
                 </figure>
             @endforeach
+    
         </div>
 
     </section>

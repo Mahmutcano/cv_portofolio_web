@@ -51,47 +51,7 @@
                             <span>ADMİN</span>
                         </div>
                     </div>
-                    <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
-                    <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list"
-                         aria-labelledby="profile-dropdown">
-                        <a href="#" class="dropdown-item preview-item">
-                            <div class="preview-thumbnail">
-                                <div class="preview-icon bg-dark rounded-circle">
-                                    <i class="mdi mdi-settings text-primary"></i>
-                                </div>
-                            </div>
-                            <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">Kullanıcı Ayarları</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item preview-item">
-                            <div class="preview-thumbnail">
-                                <div class="preview-icon bg-dark rounded-circle">
-                                    <i class="mdi mdi-onepassword  text-info"></i>
-                                </div>
-                            </div>
-                            <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">Şifreyi Değiştir</p>
-                            </div>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item preview-item">
-                            <div class="preview-thumbnail">
-                                <div class="preview-icon bg-dark rounded-circle">
-                                    <i class="mdi mdi-calendar-today text-success"></i>
-                                </div>
-                            </div>
-                            <div class="preview-item-content">
-                                <p class="preview-subject ellipsis mb-1 text-small">Listelere Git</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </li>
-            <li class="nav-item nav-category">
-                <span class="nav-link">MENÜ</span>
-            </li>
+
             <li class="nav-item menu-items {{ Route::is('admin.index') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('admin.index') }}">
               <span class="menu-icon">
@@ -176,35 +136,10 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
                              aria-labelledby="profileDropdown">
-                            <h6 class="p-3 mb-0">Profil</h6>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-dark rounded-circle">
-                                        <i class="mdi mdi-settings text-success"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <p class="preview-subject mb-1">Ayarlar</p>
-                                </div>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item preview-item">
-                                <div class="preview-thumbnail">
-                                    <div class="preview-icon bg-dark rounded-circle">
-                                        <i class="mdi mdi-logout text-danger"></i>
-                                    </div>
-                                </div>
-                                <div class="preview-item-content">
-                                    <p class="preview-subject mb-1">Çıkış</p>
-                                </div>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <p class="p-3 mb-0 text-center">Gelişmiş Ayarlar</p>
-                        </div>
-                    </li>
-                </ul>
-                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                             <div>
+                            <a class="dropdown-item preview-item" href="{{ route('index') }}"><i class="fab fa-slack-hash"></i>Sayfaya Git</a>
+                             </div>
+                            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
                         data-toggle="offcanvas">
                     <span class="mdi mdi-format-line-spacing"></span>
                 </button>

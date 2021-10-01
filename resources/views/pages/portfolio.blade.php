@@ -1,6 +1,6 @@
 @extends('layouts.front')
 @section('title')
-    Portfolio
+   KİŞİSEL
 @endsection
 
 @section('css')
@@ -8,7 +8,7 @@
 
 @section('content')
     <section class="portfolio-section">
-        <h2 class="section-title">PORTFOLIO</h2>
+        <h2 class="section-title">KİŞİSEL</h2>
 
         <div class="portfolio-wrapper">
             @foreach($portfolio as $item)
@@ -19,9 +19,9 @@
                              class="portfolio-item-img">
                     </a>
                     <figcaption class="portfolio-item-details overlay">
-
                         <h5 class="portfolio-item-title">{{ $item->title }}</h5>
                         <p class="portfolio-item-description">{{ $item->tags }}</p>
+                        
                     </figcaption>
                 </figure>
             @endforeach

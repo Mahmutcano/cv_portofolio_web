@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Admin Panel</title>
+    <title>Admin Paneli</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{ asset('assets/vendors/mdi/css/materialdesignicons.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/css/vendor.bundle.base.css') }}">
@@ -29,7 +29,7 @@
             <div class="content-wrapper full-page-wrapper d-flex align-items-center auth login-bg">
                 <div class="card col-lg-4 mx-auto">
                     <div class="card-body px-5 py-5">
-                        <h3 class="card-title text-left mb-3">Login</h3>
+                        <h3 class="card-title text-left mb-3">GİRİŞ</h3>
                         <form action="{{ route('login') }}" method="POST" id="loginForm">
                             @csrf
                             <div class="form-group">
@@ -38,18 +38,13 @@
                                        value="{{ old('email') }}">
                             </div>
                             <div class="form-group">
-                                <label for="password">Password *</label>
+                                <label for="password">Şifre *</label>
                                 <input type="password" class="form-control p_input" id="password" name="password">
                             </div>
                             <div class="form-group d-flex align-items-center justify-content-between">
                                 <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input"> Remember me </label>
-                                </div>
-                                <a href="#" class="forgot-pass">Forgot password</a>
-                            </div>
                             <div class="text-center">
-                                <button type="button" class="btn btn-primary btn-block enter-btn" id="btnLogin">Login
+                                <button type="button" class="btn btn-primary btn-block enter-btn" id="btnLogin">Giriş
                                 </button>
                             </div>
                         </form>
